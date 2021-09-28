@@ -9,28 +9,21 @@
 
     <TextView
         android:id="@+id/name_text"
+        style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:textAlignment="center"
-        style="@style/NameStyle" />
+        android:textSize="40sp" />
 
     <ImageView
         android:id="@+id/star_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="386dp"
+        android:layout_height="52dp"
         android:layout_margin="@dimen/layout_margin"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on"
         tools:ignore="ImageContrastCheck" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/toast"
-        android:onClick="toastMe"
-        />
 
     <ScrollView
         android:id="@+id/bio_scroll"
@@ -40,10 +33,12 @@
 
         <TextView
             android:id="@+id/bio_text"
-            style="@style/NameStyle"
+            style="@style/TextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/cardview_dark_background"
             android:lineSpacingMultiplier="1.2"
-            android:text="@string/bio" />
+            android:text="@string/bio"
+            android:textSize="25sp"/>
     </ScrollView>
 </LinearLayout>
