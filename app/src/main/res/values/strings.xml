@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name"><b>Arseny Zarya</b></string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Arseny.
+\n\nAnd this is my homework.
+\n\nIn this application, I have applied different styles to different elements.
+\n\nI also added some animations to the star drawing.
+\n\nI With each click, there will be a new animation.
+\n\nThere are four of them and they follow in a circle.\n\n
+</string>
+    <string name="Toast">Toast</string>
+    <string name="ChangeAnimation">Change Animation</string>
+</resources>
